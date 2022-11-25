@@ -23,7 +23,9 @@ jobs:
       run: echo ali
 
     - name: 'printing folder contents'
-      run: ls 
+      run: ls
 
+    - uses: actions/checkout@v3
+    
 
 
