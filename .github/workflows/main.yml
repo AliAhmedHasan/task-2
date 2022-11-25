@@ -16,19 +16,10 @@ jobs:
 
 
   steps:
-    - name: 'testing action'
-      run: pwd
-
-    - name: 'testing printing'
-      run: echo ali
-
-    - name: 'printing folder contents'
-      run: ls
-
     - uses: actions/checkout@v3
 
-    - name: 'printing folder contents'
-      run: ls
+    - name: ""Login to Docker hub"
+      run: docker login --username aliahmedhasan --password dckr_pat_Rf4cJtK5RjhnnL-uNNBaJtWB1dY
 
 
 
