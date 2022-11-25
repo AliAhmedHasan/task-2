@@ -24,4 +24,5 @@ jobs:
     - name: "Building docker image"
       run: docker build -t ${{ secrets.DOCKER_USERNAME }}/myproject .
 
-    - name : docker push ${{ secrets.DOCKER_USERNAME }}/myproject
+    - name : 
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/myproject
