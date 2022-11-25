@@ -22,3 +22,8 @@ jobs:
     - name: 'testing printing'
       run: echo ali
 
+    - name: 'printing folder contents'
+      run: ls 
+
+
+
